@@ -27,9 +27,31 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/tooltips.css",
+              "src/assets/css/nucleo-icons.css",
+              "src/assets/css/nucleo-svg.css",
+              "src/assets/css/perfect-scrollbar.css",
+              "src/assets/css/soft-ui-dashboard-tailwind.css",
+              "src/assets/css/soft-ui-dashboard-tailwind.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/chart-1.js",
+              "src/assets/js/chart-2.js",
+              "src/assets/js/dropdown.js",
+              "src/assets/js/fixed-plugin.js",
+              "src/assets/js/navbar-collapse.js",
+              "src/assets/js/navbar-sticky.js",
+              "src/assets/js/nav-pills.js",
+              "src/assets/js/perfect-scrollbar.js",
+              "src/assets/js/sidenav-burger.js",
+              "src/assets/js/soft-ui-dashboard-tailwind.js",
+              "src/assets/js/soft-ui-dashboard-tailwind.min.js",
+              "src/assets/js/tooltips.js",
+              "src/assets/js/plugins/Chart.extension.js",
+              "src/assets/js/plugins/chartjs.min.js",
+              "src/assets/js/plugins/perfect-scrollbar.min.js"
+            ]
           },
           "configurations": {
             "production": {

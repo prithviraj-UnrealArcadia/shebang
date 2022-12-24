@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+Color Pallet
+#344D67,
+#6ECCAF,
+#ADE792,
+#F3ECB0
+*/
+
+:root {
+  --gradient-start: #344d67;
+  --gradient-end: #6eccaf;
+  --primary: var(--gradient-start);
+  --secondary: var(--gradient-end);
+}
+
+section{
+    background-color:linear-gradient(to right, var(--gradient-start), var(--gradient-end))!important;
+}
+/*
+button{
+    background: linear-gradient(to right, var(--gradient-start), var(--gradient-end))!important;
+}*/
+
+.gradient-background{
+    background: linear-gradient(to right, var(--gradient-start), var(--gradient-end));
+}
+a{
+  cursor:pointer;
+}
